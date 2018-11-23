@@ -1,0 +1,107 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald);
+
+body{
+    background-color: rgba(0, 0, 0, 0.2);
+    background-image: url(Snow.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;}
+    
+h2{
+    color:red; text-align: center; 
+    border: 5px solid rgba(43, 70, 95, 0.2);
+    cursor: pointer;
+}
+p{
+    color: rgb(40, 108, 0) ;
+    /* background-color: rgba(43, 70, 95, 0.2); */
+    line-height: 25px;
+}
+
+
+#p14{
+    text-transform: uppercase;
+    line-height: 20px;
+    font-style: italic;
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+    border: 10px solid rgba(0, 217, 255, 0.466);
+    float: left;
+}
+
+
+/* Class CSS */
+
+.Webtext {
+    border: 2px dashed green;
+}
+
+.Active {
+    color: aqua;
+}
+
+/* Navigation bar */
+
+nav{
+    text-align: center;
+    background-color:rgba(43, 70, 95, 0.2);
+}
+
+.NavBar {
+    /* Colors */
+    color: white;
+    border: 3px rgba(43, 70, 95, 1);
+    /* background-color: rgba(4, 14, 104, 0.575); */
+    display: inline-block;
+    list-style-type: none;
+    text-align: center;
+    font: bold;
+    font-size: 42px;
+    /* padding: 0px;
+    margin: 0px;
+    display: inline-block;
+    width: 60px; */
+    /* justify-items: stretch;
+    justify-self: stretch;
+    justify-content: space-evenly; */
+    justify-content: space-around;
+
+}
+
+.NavBar a:hover{
+    color:rgba(0, 32, 216, 0.534);
+    background-color: rgba(4, 89, 104, 0.212);
+}
+
+#div14{
+    width: 300px;
+    padding: 25px;
+    margin: 25px;
+    border: 10px solid rgba(0, 217, 255, 0.466);
+    float: right;
+    margin-left: 10px;
+    margin-right: 60px;
+}
+
+#div2{
+    /* overflow: auto;
+    float: right;
+    box-align: right;
+    align-self: flex-end;
+    align-content: flex-end;
+    float: right;
+    width: 40%;
+    height: 40%;
+    background-color: rgba(0, 32, 216, 0.178) */
+
+}
+
+footer{
+    text-align: center;
+    background-color: beige;
+    clear: both;
+}
+
+img{
+    float: right;
+    padding: 10px;
+}

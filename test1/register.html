@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Register</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+    <!-- //use get not post -->
+    <form method="GET">
+        <a href="index.html"><p>GO BACK TURKEY</a>
+        <hr>
+        First name:<br>
+        <input type="text" name="Firstname"><br>
+        Last Name:<br>
+        <input type="text" name="Lastname"><br>
+        Email:<br>
+        <input type="Email" name="Email"><br>
+        Birthdate: <br>
+        <input type="date" name="Birthday"><br>
+
+        <br><hr>
+        <input type="radio" name="gender" value="Male" checked> Male<br>
+        <input type="radio" name="gender" value="female"> female<br>
+        <input type="radio" name="gender" value="Gender"> Gender<br>
+        <br><hr>
+        
+        Pets:<br>
+        <input type="checkbox" name="Cat"> Cat<br>
+        <input type="checkbox" name="Dog"> Dog<br>
+        <input type="checkbox" name="Poo"> Poo<br>
+
+        Car: 
+        <select>
+            <option value="Volvo">Volvo</option>
+            <option value="Aston Martin">Aston Martin</option>
+            <option value="Lada">Lada</option>
+        </select>
+
+        <br><hr>
+        Password: <br>
+        <input type="password" name="Password" minlength="4" maxlength="8"><br>
+        <input type="submit" name="submit" value="Submit">
+        <input type="reset" name="reset">
+        <hr>
+    </form>
+</body>
+</html>
